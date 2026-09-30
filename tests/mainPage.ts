@@ -54,7 +54,7 @@ test('Check headers href', async ({ page }) => {
     .toHaveAttribute('href', 'https://aka.ms/playwright/discord');
 });
 
-test('Light mode', async ({ page }) => {
+test('Light and Dark mode', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   await page.getByRole('button', { name: 'Switch between dark and light' }).click();
