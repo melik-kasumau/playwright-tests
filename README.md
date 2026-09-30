@@ -1,2 +1,1 @@
-Playwright 2
-
+Playwright 2.0
